@@ -1,9 +1,11 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import AuthPage from './pages/Auth'
-import DashboardPage from './pages/dasboard/index'
 import { Container } from '@chakra-ui/react'
 import Register from './pages/Register/index'
+import Sidebar from './components/sidebar'
+import Rightbar from './components/rightbar'
+import Timeline from './pages/timeline/timeline'
 
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
     <Container padding={"unset"} shadow={"md"} bg={"gray.100"} overflow={"hidden"} maxW={"6xl"} height={"100vh"}>
       <Routes>
         <Route path='/' element={<AuthPage />} />
-        <Route path='/dash' element={<DashboardPage />} />
+        <Route path='/dash' element={<Timeline />} />
         <Route path='/Register' element={<Register/>} />
       </Routes>
     </Container>

@@ -1,0 +1,85 @@
+.rightbar {
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100vh;
+    width: 400px;
+    background-color: black;
+    padding: 20px 0;
+    border-left: 1px solid gray;
+}
+.containerRight{
+    margin: 0 30px;
+}
+.searchBar{
+    margin-top: 20px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    width: 96%;
+}
+.trending{
+    margin-top: 30px;
+    background-color: rgb(33, 33, 33);
+    padding: 20px;
+    border-radius: 20px;
+}
+.trending ul{
+    list-style: none;
+}
+.trending ul li{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.trending ul li i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-size: medium;
+}
+.subhead{
+    font-size: 12px;
+    color: gray;
+}
+.follow{
+    background-color: rgb(33, 33, 33);
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.follow ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.followLeft{
+    display: flex;
+}
+.followLeft i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.at{
+    margin: 0 15px;
+}
+.userAt{
+    font-size: 12px;
+    color: gray;
+}
+.follow ul li button{
+    background-color: rgb(40, 119, 255);
+    padding: 0 15px;
+    border: none;
+    border-radius: 25px;
+    transition: .5s;
+}
+.follow ul li button:hover{
+    background-color: rgb(33, 97, 208);
+}

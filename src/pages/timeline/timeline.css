@@ -1,0 +1,121 @@
+.timeline{
+    background-color: black;
+    width: 100%;
+    padding-right: 400px;
+}
+.home{
+    border-bottom: 1px solid gray;
+    height: 100px;
+    width: 100%;
+}
+.home h2{
+    margin: 10px;
+    font-weight: 500;
+}
+.buttons{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+}
+.buttonsContainer button{
+    background-color: transparent;
+    border: none;
+    width: 70px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.postDiv{
+    margin-top: 15px;
+    padding-top: 20px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.profilePic{
+    padding: 0 20px;
+    font-size: 30px;
+}
+.content{
+    padding: 0 10px;
+    width: 100%;
+}
+.content select{
+    width: 160px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 6px;
+    color: rgb(40, 119, 255);
+    border-radius: 20px;
+}
+.content input{
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    width: 94%;
+}
+.content p{
+    margin-top: 10px;
+    color: rgb(40, 119, 255);
+}
+.content p i{
+    color: rgb(40, 119, 255);
+    margin-right: 10px;
+}
+.underline{
+    height: 1px;
+    margin-top: 15px;
+    background-color: gray;
+    width: 96%;
+}
+.homeFooter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons i{
+    color: rgb(40, 119, 255);
+    font-size: 20px;
+    margin-right: 20px;
+}
+.postBtn{
+    margin-right: 26px;
+    background-color: rgb(40, 119, 255);
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 20px;
+    transition: .5s;
+    margin-bottom: 20px;
+}
+.post:hover{
+    background-color: rgb(33, 97, 208);
+}
+
+.posts{
+    margin: 30px 60px;
+}
+
+.posts ul li{
+    display: flex;
+    margin: 10px 0;
+    background-color: rgb(33, 33, 33);
+    padding: 13px;
+    border-radius: 20px;
+}
+.profilePost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilePost i{
+    font-size: 30px;
+    margin-right: 20px;
+}
