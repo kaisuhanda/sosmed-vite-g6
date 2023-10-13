@@ -1,0 +1,65 @@
+.sidebar{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 300px;
+    padding: 20px 0;
+    border-right: 1px solid gray;
+}
+
+.container{
+    margin-left: 80px;
+}
+
+.x{
+    font-weight: 900;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.sidebar ul li{
+    font-size: 20px;
+    list-style: none;
+    margin: 20px 0;
+    transition: .5s;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.sidebar ul li:hover{
+    color: rgb(33, 33, 33);
+}
+
+.sidebar ul li span{
+    margin-left: 15px;
+}
+
+.profile{
+    display: flex;
+    margin-top: 150px;
+}
+
+.userPicture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.userProfile{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.post{
+    background-color: rgb(40, 119, 255);
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 20px;
+    margin: 20px 0;
+    transition: .5s;
+}
+.post:hover{
+    background-color: rgb(33, 97, 208);
+}
