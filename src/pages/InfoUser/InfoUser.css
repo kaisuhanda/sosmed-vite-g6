@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    background-color: rgb(20, 20, 20);
+    min-height: 500vh;
+    width: 800px;
+    margin: 0px auto;
+    flex-direction: column;
+}
+
+.profile-pic {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+}
+
+.username-info-user {
+    font-size: 30px;
+    font-weight: 500;
+    /* background-color: red; */
+    height: 50px;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+
+.button-group {
+    /* background-color: red; */
+    height: fit-content;
+    position: relative;
+    left: 450px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.tabs {
+    color: white;
+}

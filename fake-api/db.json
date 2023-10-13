@@ -1,0 +1,36 @@
+{
+    "account":[
+        {
+            "id": 1,
+            "username": "user1",
+            "email": "user1@gmail.com",
+            "password": "password1"
+          },
+          {
+            "id": 2,
+            "username": "user2",
+            "email": "user2@gmail.com",
+            "password": "password2"
+          },
+          {
+            "id": 3,
+            "username": "user3",
+            "email": "user3@gmail.com",
+            "password": "password3"
+          }
+    ],
+    "post": [
+    {
+      "id": 1,
+      "caption": "Ajur awakku",
+      "date": "20/02/2020",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "caption": "Ngantuk Ri",
+      "date": "12/12/2020",
+      "userId": 1
+    }
+  ]
+}
